@@ -31,4 +31,4 @@ end
 require APP_ROOT.join('config', 'database')
 
 # Load the routes / actions
-require_all 'app/actions.rb'
+require_all 'app/actions', 'app/helpers'
